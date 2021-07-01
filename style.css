@@ -1,0 +1,87 @@
+body{
+    background-color: #002a38;
+}
+.menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.menu li a:hover,
+.menu li:first-child a {
+    background: #267fdd;
+    color: white;
+}
+.menu li a{
+    font-style: oblique;
+    display: inline-block;
+    height: 5em;
+    width: 5em;
+    line-height: 5em;
+    text-align:center;
+    color: rgb(45, 51, 51);
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+}
+.homes{
+    margin: 2em;
+    border: 5px rgb(54, 52, 52) solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 400%;
+    color: white;
+}
+
+.Quemsomos{
+    color: white;
+    font-size: 50%;
+    margin: 10px;
+    border: rgb(54, 52, 52) 5px solid;
+    text-align: center;
+}
+#title{
+    color: rgb(54, 52, 52);
+    font-size: 110%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+    font-family: Menlo, monospace;
+    padding: 40px;
+    background-color: #002a38;
+}
+a{
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+    font-family: Menlo, monospace;
+    color: white;
+}
+#Produtos{
+    font-size: 120%;
+    margin: 78px;
+    font-family: Menlo, monospace;
+}
+img{
+	border: 4px solid #999;
+    height: 25em;
+    width: 25em;
+}
+img:hover{
+    box-shadow: #002a38 10px 5px 5px;
+}
+#body{
+    text-align: center;
+}
+.fundo{
+    background-image: linear-gradient(blue, aqua);
+    background-attachment: fixed;
+    }
+    .fundo1{
+    background-image: linear-gradient(rgb(60, 197, 113), rgb(140, 255, 125), rgb(60, 197, 113));
+}

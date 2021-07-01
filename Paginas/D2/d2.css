@@ -1,0 +1,14 @@
+img{
+    height: 47em;
+    width: 47em;
+    float: left;
+    margin: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1{
+    float: left;
+    margin-top: 10px;
+    font-size: 5em;
+    font-family: Menlo, monospace;
+}
